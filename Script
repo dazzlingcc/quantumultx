@@ -78,6 +78,28 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 ^https?://ios[-\w]*\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 ^https?://ios[-\w]*\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 
+# keep解锁会员
+^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/keep
 
+# 西窗烛 （20210514） by ddgksf2013
+https://lchttpapi.xczim.com/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
 
-hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, api.zhihu.com, vip1.kuwo.cn, p.du.163.com, vsco.co, apigate.zymk.cn, vni.kwaiying.com, *.my10api.com, www.luqijianggushi.com, account.wps.cn, origin-prod-phoenix.jibjab.com, api.bjxkhc.com, xy-viva.kakalili.com, ap*.intsig.net, m*.bybutter.com, api.vuevideo.net, api.picsart.c*, ios.fuliapps.com, apple.fuliapps.com, *.pipiapps.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, api.meiease.c*, api.m.jd.com, ios*.prod.ftl.netflix.com, api.revenuecat.com, pan.baidu.com, bmall.camera360.com, api.polaxiong.com, sub.store, *.aoscdn.com, guide-acs.m.taobao.com
+#喜马拉雅VIP
+^https:\/\/adse.+.com\/[a-z]{4}\/loading\?appid= url reject
+^https:\/\/adse.ximalaya.com\/ting\/feed\?appid= url reject
+^https:\/\/adse.ximalaya.com\/ting\/loading\?appid= url reject
+^https:\/\/adse.ximalaya.com\/ting\?appid= url reject
+^https:\/\/fdfs.xmcdn.com\/group21\/M03\/E7\/3F\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group21\/M0A\/95\/3B\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group22\/M00\/92\/FF\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group22\/M05\/66\/67\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group22\/M07\/76\/54\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group23\/M01\/63\/F1\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group23\/M04\/E5\/F6\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group23\/M07\/81\/F6\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group23\/M0A\/75\/AA\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group24\/M03\/E6\/09\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group24\/M07\/C4\/3D\/ url reject
+^https:\/\/fdfs.xmcdn.com\/group25\/M05\/92\/D1\/ url reject
+
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, api.zhihu.com, vip1.kuwo.cn, p.du.163.com, vsco.co, apigate.zymk.cn, vni.kwaiying.com, *.my10api.com, www.luqijianggushi.com, account.wps.cn, origin-prod-phoenix.jibjab.com, api.bjxkhc.com, xy-viva.kakalili.com, ap*.intsig.net, m*.bybutter.com, api.vuevideo.net, api.picsart.c*, ios.fuliapps.com, apple.fuliapps.com, *.pipiapps.com, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, api.meiease.c*, api.m.jd.com, ios*.prod.ftl.netflix.com, api.revenuecat.com, pan.baidu.com, bmall.camera360.com, api.polaxiong.com, sub.store, *.aoscdn.com, guide-acs.m.taobao.com,*.gotokeep.com, lchttpapi.xczim.com 
