@@ -26,5 +26,5 @@ payload:
   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,underlords.com
   - DOMAIN-SUFFIX,valvesoftware.com
-  - IP-CIDR,178.157.63.182/24
-  - IP-CIDR,104.156.140.84/24
+  - IP-CIDR,178.157.63.182/32
+  - IP-CIDR,104.156.140.84/32
