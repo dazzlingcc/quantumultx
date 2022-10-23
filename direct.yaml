@@ -29,3 +29,5 @@ payload:
   - IP-CIDR,178.157.63.182/32
   - IP-CIDR,104.156.140.84/32
   - DOMAIN,zz.dazzling.cf
+  - DOMAIN,bugsnag.com
+  - DOMAIN,flurry.com
