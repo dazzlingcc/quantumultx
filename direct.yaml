@@ -31,3 +31,4 @@ payload:
   - DOMAIN,zz.dazzling.cf
   - DOMAIN,bugsnag.com
   - DOMAIN,flurry.com
+  - DAMAIN-SUFFIX,tencent.com
