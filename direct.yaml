@@ -27,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,underlords.com
   - DOMAIN-SUFFIX,valvesoftware.com
   - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,yirui.tk
   - IP-CIDR,178.157.63.182/32
   - IP-CIDR,104.156.140.84/32
   - IP-CIDR,124.220.44.201/32
@@ -34,7 +35,6 @@ payload:
   - IP-CIDR,120.24.170.127/32
   - IP-CIDR,193.32.149.181/32
   - DOMAIN,zz.dazzling.cf
-  - DOMAIN,yirui.tk
   - DOMAIN,appstorrent.ru
   - DOMAIN,bugsnag.com
   - DOMAIN,flurry.com
