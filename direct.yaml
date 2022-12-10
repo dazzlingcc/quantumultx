@@ -27,7 +27,7 @@ payload:
   - DOMAIN-SUFFIX,underlords.com
   - DOMAIN-SUFFIX,valvesoftware.com
   - DOMAIN-SUFFIX,tencent.com
-  - DOMAIN-SUFFIX,yirui.tk
+  #- DOMAIN-SUFFIX,yirui.tk
   - IP-CIDR,178.157.63.182/32
   - IP-CIDR,104.156.140.84/32
   - IP-CIDR,124.220.44.201/32
