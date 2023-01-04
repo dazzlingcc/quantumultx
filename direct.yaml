@@ -35,7 +35,6 @@ payload:
   - IP-CIDR,120.24.170.127/32
   - IP-CIDR,193.32.149.181/32
   - IP-CIDR,104.168.43.150/32
-  - IP-CIDR,209.141.62.157/32
   - DOMAIN,zz.dazzling.cf
   - DOMAIN,cc.dazzling.cf
   - DOMAIN,appstorrent.ru
