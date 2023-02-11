@@ -1,5 +1,4 @@
 payload:
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN,auth0.openai.com
-  - DOMAIN,google.com
   
