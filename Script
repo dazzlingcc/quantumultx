@@ -81,9 +81,6 @@
 # keep解锁会员
 ^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/keep
 
-# 西窗烛 （20210514） by ddgksf2013
-https://lchttpapi.xczim.com/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
-
 #喜马拉雅VIP
 ^https:\/\/adse.+.com\/[a-z]{4}\/loading\?appid= url reject
 ^https:\/\/adse.ximalaya.com\/ting\/feed\?appid= url reject
