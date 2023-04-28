@@ -31,7 +31,7 @@ payload:
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,hdhome.org
   - DOMAIN-SUFFIX,dazzling.cf
-  #- DOMAIN-SUFFIX,yirui.tk
+  - DOMAIN-SUFFIX,yaocc.top
   - IP-CIDR,178.157.63.182/32
   - IP-CIDR,104.156.140.84/32
   - IP-CIDR,124.220.44.201/32
