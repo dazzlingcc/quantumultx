@@ -27,9 +27,6 @@ payload:
   - DOMAIN-SUFFIX,underlords.com
   - DOMAIN-SUFFIX,valvesoftware.com
   - DOMAIN-SUFFIX,tencent.com
-  - DOMAIN-SUFFIX,audiences.me
-  - DOMAIN-SUFFIX,m-team.cc
-  - DOMAIN-SUFFIX,hdhome.org
   - DOMAIN-SUFFIX,dazzling.cf
   - DOMAIN-SUFFIX,yaocc.top
   - IP-CIDR,178.157.63.182/32
