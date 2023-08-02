@@ -14,3 +14,15 @@ payload:
   - DOMAIN-SUFFIX,exoticaz.to
   - DOMAIN-SUFFIX,fsm.name
   - DOMAIN-SUFFIX,torrentleech.org
+  ###podtrac
+  - DOMAIN,chtbl.com
+  - DOMAIN,pdst.fm
+  - DOMAIN,www.podtrac.com
+  - DOMAIN,media.xyzcdn.net
+  - DOMAIN,xiaoyuzhoufm.com
+  - DOMAIN,cdn.lizhi.fm
+  - DOMAIN,cstat.cdn.apple.com
+  - DOMAIN-SUFFIX,megaphone.fm
+  - DOMAIN,dts.podtrac.com
+  - DOMAIN,ocsp.pik.goog
+  
