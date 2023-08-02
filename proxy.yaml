@@ -25,4 +25,4 @@ payload:
   - DOMAIN-SUFFIX,megaphone.fm
   - DOMAIN,dts.podtrac.com
   - DOMAIN,ocsp.pik.goog
-  
+  - DOMAIN,amp-api.podcasts.apple.com
