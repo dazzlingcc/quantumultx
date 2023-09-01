@@ -1,6 +1,3 @@
-#sub-store
-^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) url script-analyze-echo-response https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js
-^https?:\/\/sub\.store url script-analyze-echo-response https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js
 
 # 傲软抠图解锁会员
 ^https?:(.+).aoscdn.com/app/aimage/usersInfo$ url script-response-body https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/arkt.js
@@ -25,4 +22,4 @@
 #解锁大会员画质
 BiliBili_HD = type=http-response,pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),requires-body=true,script-path=https://github.com/Sunert/Script/raw/master/Script/Bilibili/BiliHD.js
 
-hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.zhihu.com, ap*.intsig.net, m*.bybutter.com, ios*.prod.ftl.netflix.com, sub.store, *.aoscdn.com, guide-acs.m.taobao.com, app.bilibili.com 
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.zhihu.com, ap*.intsig.net, m*.bybutter.com, ios*.prod.ftl.netflix.com, *.aoscdn.com, guide-acs.m.taobao.com, app.bilibili.com 
