@@ -2,6 +2,7 @@ payload:
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN,auth0.openai.com
   - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,chdbits.co
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,hdchina.org
   - DOMAIN-SUFFIX,springsunday.net
