@@ -28,7 +28,7 @@ payload:
   - DOMAIN-SUFFIX,underlords.com
   - DOMAIN-SUFFIX,valvesoftware.com
   - DOMAIN-SUFFIX,tencent.com
-  - DOMAIN-SUFFIX,dazzling.cf
+  - host-keyword,emby
   - DOMAIN-SUFFIX,yaocc.top
   - DOMAIN-SUFFIX,japann.eu.org
   - IP-CIDR,178.157.63.182/32
