@@ -1,41 +1,42 @@
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,podtrac.com
-DOMAIN-SUFFIX,epicgames.com
-DOMAIN-SUFFIX,helpshift.com
-DOMAIN-SUFFIX,paragon.com
-DOMAIN-SUFFIX,unrealengine.com
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,playstationnetwork.com
-DOMAIN-SUFFIX,sony.com
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-DOMAIN,steambroadcast.akamaized.net
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN,steampipe.akamaized.net
-DOMAIN,steamstore-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,steamuserimages-a.akamaihd.net
-DOMAIN-SUFFIX,fanatical.com
-DOMAIN-SUFFIX,humblebundle.com
-DOMAIN-SUFFIX,playartifact.com
-DOMAIN-SUFFIX,steam-chat.com
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steampowered.com
-DOMAIN-SUFFIX,steamstat.us
-DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,underlords.com
-DOMAIN-SUFFIX,valvesoftware.com
-DOMAIN-SUFFIX,tencent.com
-DOMAIN-KEYWORD,emby
-DOMAIN-SUFFIX,yaocc.top
-DOMAIN-SUFFIX,japann.eu.org
-IP-CIDR,178.157.63.182/32
-IP-CIDR,104.156.140.84/32
-IP-CIDR,193.32.149.181/32
-DOMAIN,time.is
-#IP-CIDR,104.168.43.150/32
-DOMAIN,appstorrent.ru
-DOMAIN,bugsnag.com
-DOMAIN,flurry.com
+payload:
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,podtrac.com
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,helpshift.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,unrealengine.com
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  - DOMAIN,steambroadcast.akamaized.net
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steampipe.akamaized.net
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,steamusercontent-a.akamaihd.net
+  - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,fanatical.com
+  - DOMAIN-SUFFIX,humblebundle.com
+  - DOMAIN-SUFFIX,playartifact.com
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamstat.us
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,underlords.com
+  - DOMAIN-SUFFIX,valvesoftware.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-KEYWORD,emby
+  - DOMAIN-SUFFIX,yaocc.top
+  - DOMAIN-SUFFIX,japann.eu.org
+  - IP-CIDR,178.157.63.182/32
+  - IP-CIDR,104.156.140.84/32
+  - IP-CIDR,193.32.149.181/32
+  - DOMAIN,time.is
+  - #IP-CIDR,104.168.43.150/32
+  - DOMAIN,appstorrent.ru
+  - DOMAIN,bugsnag.com
+  - DOMAIN,flurry.com
